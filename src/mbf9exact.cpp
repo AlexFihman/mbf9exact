@@ -186,7 +186,7 @@ int main(int argc, char** argv)
 	cout << ismin7(t) << endl;
 	*/
 	int* buf = new int[30000];
-	string s = "c:\\data\\mbf9exact\\data";
+	string s = "/data/mbf9exact/data/data";
 	s  += argv[1];
 	s  +=".bin";
 	ofstream myFile (s.c_str(), ios::out | ios::binary);
